@@ -1,0 +1,27 @@
+server:
+  port: 8920
+
+logging:
+  level:
+    com.cln.wechat.official: info
+  file:
+    name: logs/wechat-official-accounts.log
+
+spring:
+  redis:
+    database: 0
+    host: 172.0.8.2
+    port: 6379
+    password: cardlan@2018
+    jedis:
+      pool:
+        max-active: 10
+        max-wait: -1
+        max-idle: 2
+        min-idle: 0
+
+bkh:
+  mp:
+    appId: wx51103d007a84d074
+    secret: 0ce4a53427486852f42d170800505122
+
