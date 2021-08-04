@@ -10,9 +10,9 @@ logging:
 spring:
   redis:
     database: 0
-    host: 172.0.8.2
+    host: 127.0.0.1
     port: 6379
-    password: cardlan@2018
+    password: 123456
     jedis:
       pool:
         max-active: 10
